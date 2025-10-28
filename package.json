@@ -2,7 +2,7 @@
   "name": "lesson8-js4-json",
   "version": "1.0.0",
   "description": "",
-  "homepage": "https://github.com/Yosohanomi/lesson8-js4-json#readme",
+  "homepage": "https://yosohanomi.github.io/lesson8-js4-json/",
   "bugs": {
     "url": "https://github.com/Yosohanomi/lesson8-js4-json/issues"
   },
@@ -21,6 +21,7 @@
     "predeploy": "npm run build"
   },
   "dependencies": {
+    "gh-pages": "^6.3.0",
     "parcel": "^2.16.0"
   }
 }
