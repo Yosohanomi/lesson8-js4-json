@@ -1,0 +1,25 @@
+{
+    "students": [
+      {
+        "firstName": "Іван",
+        "lastName": "Петренко",
+        "birthYear": 2008,
+        "groupNumber": "2",
+        "grades": [85, 90, 78, 92, 88]
+      },
+      {
+        "firstName": "Марія",
+        "lastName": "Коваленко",
+        "birthYear": 2009,
+        "groupNumber": "3",
+        "grades": [91, 87, 95, 89, 93]
+      },
+      {
+        "firstName": "Олександр",
+        "lastName": "Шевченко",
+        "birthYear": 2010,
+        "groupNumber": "1",
+        "grades": [76, 82, 79, 85, 80]
+      }
+    ]
+  }

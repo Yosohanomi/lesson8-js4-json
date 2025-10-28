@@ -14,7 +14,38 @@
             <p>HEX: {{hex}}</p>
             <p>RGB: {{rgb}}</p>
         </div>
+        
+
+        <input type="text" id="name" placeholder="Введіть ім'я">
+        <input type="number" id="age" placeholder="Введіть вік">
+        <button onclick="createUserJSON()">Створити JSON</button>
 
     <script src="./colorPicker.js" type="module"></script>
+    <!-- <script src="./students.js" type="module"></script>
+    <script src="./dishes.js" type="module"></script>
+    <script src="./films.js" type="module"></script> -->
+    <script src="./book.js" type="module"></script>
+    <script>
+        function createUserJSON() {
+            const name = document.getElementById('name').value;
+            const age = document.getElementById('age').value;
+            
+            const user = {
+                name: name,
+                age: parseInt(age)
+            };
+            
+            const jsonData = JSON.stringify(user);
+            
+            try {
+                const parsedData = JSON.parse(jsonData);
+                console.log('JSON коректний:', parsedData);
+                alert('JSON коректний! Перевірте консоль');
+            } catch (error) {
+                console.log('Помилка в JSON:', error);
+                alert('Помилка в JSON!');
+            }
+        }
+        </script>
 </body>
 </html>

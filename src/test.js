@@ -1,5 +1,5 @@
 const age = 18;
-const films = ["Josephine la comedie", "Kingdom of Heaven", "Napoleon", "Danton"];
+const films = ["josephine ou la comedie des ambitions", "Kingdom of Heaven", "Napoleon", "Danton"];
 
 // Запаковуємо данні у рядок (stringify)
 const archiveAge = JSON.stringify(age);
