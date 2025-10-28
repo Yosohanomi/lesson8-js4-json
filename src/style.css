@@ -23,7 +23,7 @@ body {
                 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 
                 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    flex: 0 0 calc(25% - 20px); /* 4 колонки */
+    flex: 0 0 calc(25% - 20px); 
     max-width: calc(25% - 20px);
 }
 
