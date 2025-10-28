@@ -1,0 +1,26 @@
+{
+  "name": "lesson8-js4-json",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/Yosohanomi/lesson8-js4-json#readme",
+  "bugs": {
+    "url": "https://github.com/Yosohanomi/lesson8-js4-json/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yosohanomi/lesson8-js4-json.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html --no-cache --public-url ./",
+    "deploy": "gh-pages -d dist",
+    "predeploy": "npm run build"
+  },
+  "dependencies": {
+    "parcel": "^2.16.0"
+  }
+}
