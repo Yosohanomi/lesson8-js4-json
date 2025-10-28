@@ -1,3 +1,19 @@
-<!DOCTYPE html><html lang=en><meta charset=UTF-8><meta name=viewport content="width=device-width, initial-scale=1.0"><title>Document</title><body>
-    <script src=lesson8-js4-json.7f29178f.js type=module></script>
+<!DOCTYPE html><html lang=en><meta charset=UTF-8><meta name=viewport content="width=device-width, initial-scale=1.0"><title>Document</title><link rel=stylesheet href=lesson8-js4-json.e0308694.css><body>
+    <p><a href=index.html>На головну</a></p>  
+    <div class="js-palette palette"></div>
+        <div class=color-swatch data-hex={{hex}} data-rgb={{rgb}}></div>
+        <div class=color-meta>
+            <p>HEX: {{hex}}</p>
+            <p>RGB: {{rgb}}</p>
+        </div>
+        
+
+        <input id=name placeholder="Введіть ім'я">
+        <input type=number id=age placeholder="Введіть вік">
+        <button onclick=createUserJSON()>Створити JSON</button>
+
+    <script src=lesson8-js4-json.8ffecee6.js type=module></script>
+    
+    <script src=lesson8-js4-json.e4bb9826.js type=module></script>
+    <script>function createUserJSON(){let e=JSON.stringify({name:document.getElementById("name").value,age:parseInt(document.getElementById("age").value)});try{let t=JSON.parse(e);console.log("JSON коректний:",t),alert("JSON коректний! Перевірте консоль")}catch(e){console.log("Помилка в JSON:",e),alert("Помилка в JSON!")}}</script>
 
